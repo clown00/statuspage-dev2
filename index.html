@@ -34,6 +34,14 @@
 						<span data-l10n-id="Under-maintenance">Under maintenance</span> <span data-l10n-id="on">on</span> api.
 					</div>
 					
+					<div class="panel investigating">
+						<span data-l10n-id="Investigating">Investigating</span> <span data-l10n-id="on">on</span> batch.
+					</div>
+					
+					<div class="panel degraded performance">
+						<span data-l10n-id="Degraded-performance">Degraded performance</span> <span data-l10n-id="on">on</span> dev, stg, test.
+					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
@@ -44,19 +52,19 @@
 					</li>
 					
 					<li>
-						batch <span class="status operational" data-l10n-id="operational">operational</span>
+						batch <span class="status investigating" data-l10n-id="investigating">investigating</span>
 					</li>
 					
 					<li>
-						dev <span class="status operational" data-l10n-id="operational">operational</span>
+						dev <span class="status degraded performance" data-l10n-id="degraded-performance">degraded performance</span>
 					</li>
 					
 					<li>
-						stg <span class="status operational" data-l10n-id="operational">operational</span>
+						stg <span class="status degraded performance" data-l10n-id="degraded-performance">degraded performance</span>
 					</li>
 					
 					<li>
-						test <span class="status operational" data-l10n-id="operational">operational</span>
+						test <span class="status degraded performance" data-l10n-id="degraded-performance">degraded performance</span>
 					</li>
 					
 					<li>
@@ -67,6 +75,44 @@
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
+					
+					<div class="incident">
+						<span class="date moment">2018-06-09 07:25:01 UTC</span>
+
+						
+							<span class="label degraded performance float-right" data-l10n-id="degraded-performance">degraded performance</span>
+						
+						
+							<span class="label system float-right">dev</span>
+						
+							<span class="label system float-right">stg</span>
+						
+							<span class="label system float-right">test</span>
+						
+						<hr/>
+
+						<span class="title">bbb</span>
+						<p></p>
+
+						
+					</div>
+					
+					<div class="incident">
+						<span class="date moment">2018-06-09 07:24:46 UTC</span>
+
+						
+							<span class="label investigating float-right" data-l10n-id="investigating">investigating</span>
+						
+						
+							<span class="label system float-right">batch</span>
+						
+						<hr/>
+
+						<span class="title">aaa</span>
+						<p></p>
+
+						
+					</div>
 					
 					<div class="incident">
 						<span class="date moment">2018-06-09 07:24:01 UTC</span>
